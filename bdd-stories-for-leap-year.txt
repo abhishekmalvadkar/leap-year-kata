@@ -1,0 +1,9 @@
+Feature:
+    Check given year is leap or not ?
+
+Given
+    Year is 2015
+When
+    we call isLeap() method on Year class object
+Then
+    it should return false
